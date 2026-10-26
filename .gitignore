@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime data and biometric information
+attendance.db
+identification_log_*.txt
+faces/*.jpg
+faces/*.jpeg
+faces/*.png
+faces/*.pkl
+
+# Model training outputs
+*.weights.h5
+checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local archives and datasets
+*.rar
+*.zip
+Face_Attendance_System_dataset/
+extracted_data/
